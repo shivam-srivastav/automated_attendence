@@ -3,6 +3,7 @@ import "./Profile.scss";
 import profile from "../../assets/profile.jpg";
 import Insert from "./Insert/Insert.js";
 import View from "./View/View.js";
+import { Link } from "react-router-dom";
 // import { FaUserAlt } from 'react-icons/fa';
 class Profile extends React.Component {
   constructor(props) {
@@ -24,10 +25,14 @@ class Profile extends React.Component {
       <div className="profile">
         <div className="profile-title">
           <h4>
-            <a href="./"> Shivam Srivastava</a>
+            <Link to="./">
+              <a href="#"> Shivam Srivastava</a>
+            </Link>
           </h4>
           <h4>
-            <a href="./">Sign out</a>
+            <Link to="./">
+              <a href="#">Sign out</a>
+            </Link>
           </h4>
         </div>
         <div className="profile-small">
