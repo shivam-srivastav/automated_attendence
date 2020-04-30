@@ -25,14 +25,10 @@ class Profile extends React.Component {
       <div className="profile">
         <div className="profile-title">
           <h4>
-            <Link to="./">
-              <a href="#"> Shivam Srivastava</a>
-            </Link>
+            <Link to="./">Shivam Srivastava</Link>
           </h4>
           <h4>
-            <Link to="./">
-              <a href="#">Sign out</a>
-            </Link>
+            <Link to="./">Sign out</Link>
           </h4>
         </div>
         <div className="profile-small">

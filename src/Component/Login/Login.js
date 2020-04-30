@@ -38,16 +38,12 @@ class Login extends Component {
                 <p>Save password</p>
               </div>
               <button className="lg-dt-1-button">
-                <Link to="./profile">
-                  <a href="#">Sign-In</a>
-                </Link>
+                <Link to="./profile">Sign-In</Link>
               </button>
               <div className="lg-dt-1-signup">
                 <p>Don't have an account?</p>
                 <div>
-                  <Link to="./registration">
-                    <a href="#">Sign-Up</a>
-                  </Link>
+                  <Link to="./registration">Sign-Up</Link>
                 </div>
               </div>
             </form>

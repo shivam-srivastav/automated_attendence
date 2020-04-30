@@ -107,9 +107,7 @@ class Registration extends React.Component {
             <div className="reg-signin">
               <p>Already have an account?</p>
               <div>
-                <Link to="./signin">
-                  <a href="#">Sign-in</a>
-                </Link>
+                <Link to="/signin">Sign-in</Link>
               </div>
             </div>
             {/* { console.log(this.props)}
