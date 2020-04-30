@@ -1,6 +1,5 @@
 import React from "react";
 import Home from "./Component/Home/Home";
-import { Link } from "react-router-dom";
 import "./App.css";
 // import Homepage from './Component/Homepage/Homepage';
 import Registration from "./Component/Registration/Registration";

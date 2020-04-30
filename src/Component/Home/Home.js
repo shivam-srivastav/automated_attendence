@@ -1,5 +1,6 @@
 import React from "react";
 // import { Dropdown } from 'semantic-ui-react'
+import { Link } from "react-router-dom";
 import clasroom from "../../assets/classroom.jpg";
 
 import "./Home.scss";
