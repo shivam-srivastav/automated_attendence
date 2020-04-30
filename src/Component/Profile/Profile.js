@@ -23,7 +23,9 @@ class Profile extends React.Component {
     return (
       <div className="profile">
         <div className="profile-title">
-          <h1> Shivam Srivastava</h1>
+          <h4>
+            <a href="./"> Shivam Srivastava</a>
+          </h4>
           <h4>
             <a href="./">Sign out</a>
           </h4>
