@@ -1,6 +1,7 @@
 import React from "react";
 // import { Dropdown } from 'semantic-ui-react'
 import clasroom from "../../assets/classroom.jpg";
+
 import "./Home.scss";
 
 // const options = [
