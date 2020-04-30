@@ -47,8 +47,12 @@ class Home extends React.Component {
               </p>
             </div>
             <div className="Home-container-text-button">
-              <a href="./signin">Login</a>
-              <a href="./registration">Register</a>
+              <Link to="/signin">
+                <a href="#">Login</a>
+              </Link>
+              <Link to="/registration">
+                <a href="#">Register</a>
+              </Link>
             </div>
           </div>
         </div>
